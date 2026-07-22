@@ -5,3 +5,5 @@ dist/oraculo-sua-brother.skill
 .DS_Store
 **/.DS_Store
 .omx/
+__pycache__/
+*.pyc

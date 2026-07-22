@@ -1,0 +1,7 @@
+
+# IP pago da Rê — NUNCA no repo público
+skills/oraculo-sua-brother/kb/*.db
+dist/oraculo-sua-brother.skill
+.DS_Store
+**/.DS_Store
+.omx/

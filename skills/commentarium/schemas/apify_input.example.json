@@ -1,0 +1,7 @@
+{
+  "directUrls": [
+    "https://www.instagram.com/reel/POST_ID/"
+  ],
+  "resultsLimit": 5000,
+  "resultsType": "comments"
+}

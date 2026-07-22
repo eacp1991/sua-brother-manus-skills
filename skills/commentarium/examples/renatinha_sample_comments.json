@@ -1,0 +1,58 @@
+[
+  {
+    "comment_id": "r1",
+    "comment_text": "Parabéns, o feminismo venceu, não reclamem.",
+    "username": "user_a",
+    "likes_count": 1228,
+    "replies_count": 64,
+    "timestamp": "2026-01-01T12:00:00Z"
+  },
+  {
+    "comment_id": "r2",
+    "comment_text": "Sou PM e digo: não cheguem em mulheres. Hoje tudo pode virar assédio.",
+    "username": "user_b",
+    "likes_count": 1202,
+    "replies_count": 89,
+    "timestamp": "2026-01-01T12:01:00Z"
+  },
+  {
+    "comment_id": "r3",
+    "comment_text": "Só querem levantar o ego, depois o cara ainda sai como errado.",
+    "username": "user_c",
+    "likes_count": 881,
+    "replies_count": 42,
+    "timestamp": "2026-01-01T12:02:00Z"
+  },
+  {
+    "comment_id": "r4",
+    "comment_text": "Sozinho me deito, em paz me levanto.",
+    "username": "user_d",
+    "likes_count": 516,
+    "replies_count": 25,
+    "timestamp": "2026-01-01T12:03:00Z"
+  },
+  {
+    "comment_id": "r5",
+    "comment_text": "Rico é cantada, pobre é assédio.",
+    "username": "user_e",
+    "likes_count": 338,
+    "replies_count": 33,
+    "timestamp": "2026-01-01T12:04:00Z"
+  },
+  {
+    "comment_id": "r6",
+    "comment_text": "Mas como chega em alguém hoje sem parecer invasivo? pergunta sincera.",
+    "username": "user_f",
+    "likes_count": 204,
+    "replies_count": 17,
+    "timestamp": "2026-01-01T12:05:00Z"
+  },
+  {
+    "comment_id": "r7",
+    "comment_text": "Acho que falta educação emocional pros dois lados. Ninguém sabe conversar mais.",
+    "username": "user_g",
+    "likes_count": 177,
+    "replies_count": 12,
+    "timestamp": "2026-01-01T12:06:00Z"
+  }
+]

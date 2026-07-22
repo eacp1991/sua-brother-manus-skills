@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """
-COMMENTARIUM v0.2 — Generic Apify fetcher
+COMMENTARIUM v0.6 — Apify comment fetcher (actor canônico: apify/instagram-scraper)
 
-Runs an Apify actor synchronously and saves returned dataset items.
-This script intentionally does not hardcode one Instagram actor, because actor input schemas vary.
+Roda um actor Apify síncrono e salva os itens do dataset. Default = apify~instagram-scraper
+no modo resultsType:comments (pega 3-15x mais que o comment-scraper legado; case 3.724).
+
+ANTI-FABRICAÇÃO: resposta vazia, null ou inesperada FALHA com exit != 0 — nunca "sucesso vazio".
 
 Environment:
-  APIFY_TOKEN required unless --token is passed.
+  APIFY_TOKEN obrigatório, exceto se --token for passado.
 
 Usage:
   python3 scripts/fetch_apify_comments.py \
     --post-url "https://www.instagram.com/reel/..." \
-    --actor-id "username~actor-name" \
-    --limit 500 \
+    --limit 5000 \
     --out raw_comments.json
 
-For actors with custom input schema, pass --input-json custom_input.json.
+Para input custom, passar --input-json custom_input.json.
 """
 
 from __future__ import annotations
@@ -24,28 +25,26 @@ import argparse
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
 from typing import Any, Dict
 
 API_BASE = "https://api.apify.com/v2"
+DEFAULT_ACTOR = "apify~instagram-scraper"
 
 
 def load_input(args: argparse.Namespace) -> Dict[str, Any]:
     if args.input_json:
         with open(args.input_json, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-    else:
-        # Generic input accepted by many Instagram actors, but not guaranteed.
-        # Manus/user should adapt when actor docs require different fields.
-        payload = {
-            "directUrls": [args.post_url],
-            "resultsLimit": args.limit,
-            "includeReplies": args.include_replies,
-            "proxy": {"useApifyProxy": True},
-        }
-    return payload
+            return json.load(f)
+    # Schema confirmado do apify/instagram-scraper em modo comentários.
+    return {
+        "directUrls": [args.post_url],
+        "resultsType": "comments",
+        "resultsLimit": args.limit,
+    }
 
 
 def post_json(url: str, payload: Dict[str, Any], timeout: int = 310) -> Any:
@@ -63,21 +62,20 @@ def post_json(url: str, payload: Dict[str, Any], timeout: int = 310) -> Any:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--post-url", required=False, help="Public post URL. Required unless custom --input-json includes it.")
-    parser.add_argument("--actor-id", required=True, help="Apify actor id, e.g. username~actor-name")
-    parser.add_argument("--token", default=os.environ.get("APIFY_TOKEN"), help="Apify API token or APIFY_TOKEN env var")
-    parser.add_argument("--limit", type=int, default=500)
-    parser.add_argument("--include-replies", action="store_true", default=True)
-    parser.add_argument("--input-json", help="Custom actor input JSON")
+    parser.add_argument("--post-url", required=False, help="URL do post público. Obrigatório exceto se --input-json já incluir.")
+    parser.add_argument("--actor-id", default=DEFAULT_ACTOR, help=f"Apify actor id (default {DEFAULT_ACTOR})")
+    parser.add_argument("--token", default=os.environ.get("APIFY_TOKEN"), help="Token Apify ou env APIFY_TOKEN")
+    parser.add_argument("--limit", type=int, default=5000)
+    parser.add_argument("--input-json", help="Input custom do actor (JSON)")
     parser.add_argument("--out", default="raw_comments.json")
     parser.add_argument("--format", default="json", choices=["json", "jsonl", "csv"])
     args = parser.parse_args()
 
     if not args.token:
-        print("ERROR: Missing APIFY_TOKEN. Set env var or pass --token.", file=sys.stderr)
+        print("ERROR: APIFY_TOKEN ausente. Defina a env var ou passe --token.", file=sys.stderr)
         return 2
     if not args.post_url and not args.input_json:
-        print("ERROR: --post-url required unless --input-json is provided.", file=sys.stderr)
+        print("ERROR: --post-url obrigatório (exceto com --input-json).", file=sys.stderr)
         return 2
 
     payload = load_input(args)
@@ -90,17 +88,29 @@ def main() -> int:
         msg = e.read().decode("utf-8", errors="replace")
         print(f"ERROR: Apify HTTP {e.code}: {msg}", file=sys.stderr)
         if e.code == 408:
-            print("Hint: synchronous run timed out. Run the actor/task asynchronously in Apify UI/API, then export dataset JSON.", file=sys.stderr)
+            print("Hint: run síncrono estourou. Rode async na API/UI do Apify e exporte o dataset.", file=sys.stderr)
         return 1
+    except urllib.error.URLError as e:
+        print(f"ERROR: rede/conexão falhou: {e.reason}", file=sys.stderr)
+        return 1
+    except (TimeoutError, json.JSONDecodeError) as e:
+        print(f"ERROR: timeout ou resposta não-JSON: {e}", file=sys.stderr)
+        return 1
+
+    # ANTI-FABRICAÇÃO: vazio/null/inesperado = FALHA, nunca "sucesso vazio".
+    if result is None or not isinstance(result, list):
+        print("ERROR: Apify retornou resposta vazia ou inesperada (não é lista). PARE — não invente comentários.", file=sys.stderr)
+        return 3
+    if len(result) == 0:
+        print("ERROR: Apify retornou 0 comentários. Pode ser rate-limit, post sem comentários, ou actor errado. NÃO fabrique dados — verifique o actor/limite e re-rode.", file=sys.stderr)
+        return 3
 
     out = Path(args.out)
     if args.format == "json":
         out.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     else:
         out.write_text(str(result), encoding="utf-8")
-
-    count = len(result) if isinstance(result, list) else "unknown"
-    print(f"Saved {count} items to {out}")
+    print(f"Saved {len(result)} items to {out}")
     return 0
 
 

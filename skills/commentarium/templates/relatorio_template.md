@@ -1,97 +1,190 @@
 # COMMENTARIUM REPORT
 
 **Post**: [URL do post]  
-**Data da Análise**: [Data]  
-**Modo**: [SERIO_SOCIALDEV / QUINTA_SERIE_LAB / CREATOR_INTELLIGENCE]  
-**Total de Comentários Analisados**: [Número]
+**Data da análise**: [Data]  
+**Modo**: [SERIO_SOCIALDEV / CREATOR_INTELLIGENCE]  
+**Total de comentários analisados**: [Número]
 
 ---
 
-## 1. Resumo Brutal
+## 1. Resumo brutal
 
-[Explicar em até 5 linhas o que aconteceu nos comentários]
-
----
-
-## 2. Números Principais
-
-| Métrica | Valor |
-|---------|-------|
-| Total de comentários analisados | [X] |
-| Total válido após limpeza | [Y] |
-| Comentários com mais likes | [Z] |
-| Principais clusters | [N] |
-| Palavras recorrentes | [M] |
+[Explicar em até 5 linhas o que aconteceu nos comentários. Sem jargão de dashboard.]
 
 ---
 
-## 3. Leitura Cultural
+## 2. Números principais
 
-[O que esse post revelou sobre o público brasileiro]
+Total bruto analisado: [X]
 
----
+Total válido após limpeza: [Y]
 
-## 4. Clusters Principais
+Comentários removidos: [motivos principais]
 
-| Cluster | Descrição | Peso | Exemplos | Oportunidade |
-|---------|-----------|------|----------|--------------|
-| [Nome] | [Descrição] | [%] | [Exemplos curtos] | [Oportunidade] |
+Principais clusters encontrados: [N]
 
----
-
-## 5. Top Comentários
-
-| Comentarista | Texto | Likes | Categoria | Por Que Funcionou | Potencial |
-|--------------|-------|-------|-----------|------------------|-----------|
-| 01 | [Texto] | [N] | [Categoria] | [Análise] | [Potencial] |
+Palavras/expressões recorrentes mais úteis: [lista curta]
 
 ---
 
-## 6. Ouro Extraído
+## 3. Leitura cultural
+
+[O que esse post revelou sobre o público. A leitura deve ir além de sentimento positivo/negativo.]
+
+Separar em:
+
+**Evidência:** [o que os comentários mostram literalmente]
+
+**Inferência:** [interpretação provável]
+
+**Hipótese:** [aposta validável]
+
+---
+
+## 4. Clusters principais
+
+### Cluster 1 — [nome humano]
+
+Descrição: [explicação curta]
+
+Peso aproximado: [número ou sinal qualitativo]
+
+Exemplos anonimizados: [2-3 exemplos curtos]
+
+Oportunidade: [conteúdo/produto/comunicação]
+
+### Cluster 2 — [nome humano]
+
+Descrição: [explicação curta]
+
+Peso aproximado: [número ou sinal qualitativo]
+
+Exemplos anonimizados: [2-3 exemplos curtos]
+
+Oportunidade: [conteúdo/produto/comunicação]
+
+---
+
+## 5. Top comentários anonimizados
+
+### Comentário 1 — [Comentarista 01]
+
+Texto: “[comentário]”
+
+Likes/respostas: [números]
+
+Categoria: [dor/objeção/desejo/dúvida/lead/etc.]
+
+Por que importa: [análise]
+
+Potencial: [conteúdo, resposta, campanha, produto]
+
+### Comentário 2 — [Comentarista 02]
+
+Texto: “[comentário]”
+
+Likes/respostas: [números]
+
+Categoria: [categoria]
+
+Por que importa: [análise]
+
+Potencial: [conteúdo, resposta, campanha, produto]
+
+---
+
+## 6. Linguagem nativa extraída
+
+Frases que parecem vir do público, não de agência:
+
+- “[frase 1]”
+- “[frase 2]”
+- “[frase 3]”
+
+Como usar essa linguagem:
+
+[explicar onde entra: hook, carrossel, headline, roteiro, oferta]
+
+---
+
+## 7. Ouro estratégico
+
+Principais oportunidades:
+
+1. [oportunidade]
+2. [oportunidade]
+3. [oportunidade]
+
+Principal tensão cultural:
+
+[frase-síntese]
+
+Frase que o público ainda não formulou sozinho:
+
+“[frase]”
+
+---
+
+## 8. Conteúdos prontos
 
 ### Hooks
+
 - [Hook 1]
 - [Hook 2]
 - [Hook 3]
 
-### Roteiros
-- [Roteiro 1]
-- [Roteiro 2]
-- [Roteiro 3]
+### Roteiros curtos
 
-### Quadros
-- [Quadro 1]
-- [Quadro 2]
+**Roteiro 1:** [estrutura de 15-45s]
 
-### Stories
-- [Story 1]
-- [Story 2]
+**Roteiro 2:** [estrutura de 15-45s]
 
 ### Carrosséis
-- [Carrossel 1]
-- [Carrossel 2]
 
-### Respostas em Vídeo
-- [Resposta 1]
-- [Resposta 2]
+**Carrossel 1:** [título + promessa]
 
----
+**Carrossel 2:** [título + promessa]
 
-## 7. Recomendação Estratégica
+### Respostas em vídeo
 
-[O que fazer agora com essa inteligência]
+**Resposta 1:** [comentário-base + resposta]
+
+**Resposta 2:** [comentário-base + resposta]
 
 ---
 
-## 8. Anexo Interno (Opcional)
+## 9. Recomendação estratégica
 
-**Seção: Uso Operacional**
+Prioridade 1: [ação]
 
-[Somente se solicitado: lista com @ reais para convite, resposta ou CRM]
+Prioridade 2: [ação]
 
-**Aviso**: Esta seção não deve ser publicada publicamente.
+Prioridade 3: [ação]
 
 ---
 
-**Relatório gerado por COMMENTARIUM**  
-**Confidencialidade**: [Público / Interno]
+## 10. Hipóteses a validar
+
+Hipótese 1: [aposta testável]
+
+Como testar: [experimento simples]
+
+Sinal de sucesso: [métrica ou evidência]
+
+Hipótese 2: [aposta testável]
+
+Como testar: [experimento simples]
+
+Sinal de sucesso: [métrica ou evidência]
+
+---
+
+## 11. Anexo interno — NÃO PUBLICAR
+
+[Somente se solicitado: lista com @ reais para convite, resposta autorizada ou CRM.]
+
+Aviso: esta seção não deve ser publicada publicamente.
+
+---
+
+Relatório gerado por COMMENTARIUM.

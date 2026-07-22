@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": ["id", "text", "username", "likes", "replies", "engagement", "public_alias"],
+  "properties": {
+    "id": {"type": ["string", "null"]},
+    "text": {"type": "string"},
+    "text_clean": {"type": "string"},
+    "username": {"type": ["string", "null"]},
+    "public_alias": {"type": "string"},
+    "likes": {"type": "integer"},
+    "replies": {"type": "integer"},
+    "engagement": {"type": "integer"},
+    "timestamp": {"type": ["string", "null"]},
+    "post_url": {"type": ["string", "null"]},
+    "flags": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,4 +1,4 @@
-# MANUS_RUNBOOK — COMMENTARIUM v0.3 Serious First
+# MANUS_RUNBOOK — COMMENTARIUM v0.6 Serious First
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Rodar uma análise séria de comentários a partir de um post público.
 
 ```bash
 export APIFY_TOKEN="..."
-export APIFY_ACTOR_ID="username~actor-name"
+export APIFY_ACTOR_ID="apify~instagram-scraper"
 export POST_URL="https://www.instagram.com/reel/.../"
 ```
 
@@ -18,7 +18,7 @@ export POST_URL="https://www.instagram.com/reel/.../"
 python3 scripts/fetch_apify_comments.py \
   --post-url "$POST_URL" \
   --actor-id "$APIFY_ACTOR_ID" \
-  --limit 1000 \
+  --limit 50000 \
   --out raw_comments.json
 ```
 

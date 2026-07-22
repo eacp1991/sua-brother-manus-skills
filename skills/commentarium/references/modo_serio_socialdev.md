@@ -2,173 +2,200 @@
 
 ## Propósito
 
-Mapear dores, desejos, objeções, linguagem nativa e oportunidades comerciais em comentários de posts públicos.
+Mapear dores, desejos, objeções, linguagem nativa, crenças coletivas, dúvidas e oportunidades comerciais em comentários de posts públicos.
 
-**Público-alvo**: Marcas, creators, produtos, lançamentos, infoprodutos.
+Público-alvo: marcas, creators, produtos, lançamentos, infoprodutos.
 
-**Saída**: Relatório estratégico com clusters, top comentários, pautas de conteúdo e recomendações.
+Saída: relatório estratégico com clusters, top comentários anonimizados, linguagem nativa, pautas de conteúdo e recomendações.
 
----
+## Princípio central
 
-## Rubrica de Classificação
+Não fazer apenas análise de sentimento. Sentimento é termômetro; estratégia exige diagnóstico.
 
-Cada comentário relevante recebe classificação em uma ou mais categorias:
+A pergunta principal é:
 
-### Dor (Explícita e Implícita)
+> Que tensão cultural os comentários estão revelando?
 
-**Dor Explícita**: Reclamação direta, frustração clara.
-- Exemplos: "Não funciona", "Muito caro", "Pior compra que fiz"
+## Rubrica de classificação
 
-**Dor Implícita**: Problema não dito, mas inferível.
-- Exemplos: "Tô cansado", "Não aguento mais", "Que raiva"
+### Dor explícita
+
+Reclamação direta ou frustração clara.
+
+Exemplos: “não funciona”, “muito caro”, “pior compra que fiz”.
+
+### Dor implícita
+
+Problema não dito de forma objetiva, mas inferível pela linguagem.
+
+Exemplos: “tô cansado”, “não aguento mais”, “que raiva”.
 
 ### Objeção
 
-Resistência, mas, porém, argumentação contrária.
-- Exemplos: "Mas e se...", "Discordo porque", "Não é bem assim"
+Resistência, contraponto, argumento contrário, “mas”, “depende”, “na prática não é assim”.
 
 ### Desejo
 
-Vontade, aspiração, sonho, "gostaria".
-- Exemplos: "Quero isso", "Adoraria", "Sonho com"
+Vontade, aspiração, demanda ou busca de solução.
 
-### Medo
+Exemplos: “quero isso”, “adoraria”, “seria bom se...”.
 
-Preocupação, receio, insegurança.
-- Exemplos: "Tenho medo de", "Assustado com", "Preocupado que"
+### Medo ou risco percebido
 
-### Crença Limitante
+Preocupação, insegurança, medo de consequência social, financeira, jurídica ou emocional.
 
-Pressupostos que bloqueiam ação.
-- Exemplos: "Nunca vai funcionar", "Pessoas como eu não conseguem"
+### Crença coletiva
 
-### Ironia
+Pressuposto compartilhado que organiza a conversa.
 
-Crítica velada, sarcasmo.
-- Exemplos: "Claro, porque isso sempre funciona", "Que inovação..."
+Exemplo: “hoje em dia não dá para chegar em ninguém”.
 
-### Raiva
+### Ironia crítica
 
-Agressividade, indignação, ódio.
-- Exemplos: "Que ódio", "Raiva disso", "Que raiva"
+Sarcasmo ou provocação que carrega uma crítica social.
 
-### Esperança
+### Raiva ou ressentimento
 
-Otimismo, crença, confiança.
-- Exemplos: "Acredito que", "Tenho fé", "Vai dar certo"
+Indignação, hostilidade, revolta ou sensação de injustiça.
+
+### Esperança ou concordância
+
+Validação, alívio, entusiasmo ou sensação de “finalmente alguém falou”.
 
 ### Dúvida
 
-Incerteza, questionamento.
-- Exemplos: "Será que?", "Não tenho certeza", "Como assim?"
+Perguntas, confusão, pedido de explicação.
 
-### Linguagem Nativa
+### Linguagem nativa
 
-Gírias, expressões típicas, sotaque linguístico.
-- Exemplos: "Bora", "Mano", "Tá bom", "Blz", "Valeu", "Cara"
+Expressões que parecem vir do público real, não de agência.
 
-### Oportunidade de Resposta
+Exemplos: “cara”, “mano”, “em paz me levanto”, “só querem ego”.
 
-Comentário que merece resposta em vídeo, story, post.
-- Indicador: Alta relevância + pergunta ou provocação
+### Oportunidade de resposta
 
-### Oportunidade de Produto
+Comentário que merece resposta em vídeo, story, post ou live.
 
-Sugestão de feature, melhoria, novo produto.
-- Exemplos: "Deveria ter", "Falta", "Implementar", "Feature"
+### Oportunidade de produto
 
-### Possível Lead
+Sugestão de feature, melhoria, oferta, serviço, curso, mentoria ou comunidade.
 
-Pessoa interessada, pronta para comprar ou testar.
-- Indicador: Pergunta específica + alto engajamento
+### Possível lead
 
----
+Pessoa interessada, pronta para comprar, testar, entrar em lista, mandar DM ou pedir link.
 
-## Estrutura de Output
+## Estrutura de output
 
-### 1. Resumo Brutal
+### 1. Resumo brutal
 
 Explicar em até 5 linhas o que aconteceu nos comentários.
 
+Bom exemplo:
+
+> “3.724 comentários analisados. A conversa não é sobre paquera; é sobre risco social. O público masculino substituiu vocabulário afetivo por vocabulário jurídico. O conteúdo deve responder ao medo antes de vender qualquer solução.”
+
+### 2. Números principais
+
+Incluir total bruto, total válido, principais clusters, comentários mais curtidos e expressões recorrentes.
+
+Use números para orientar, não para decorar.
+
+### 3. Leitura cultural
+
+Responder:
+
+- O que o público está tentando dizer?
+- Qual tensão aparece por baixo dos comentários?
+- Qual frase resume a conversa?
+- O que o creator/marca ainda não percebeu?
+
+### 4. Clusters principais
+
+Cada cluster deve conter:
+
+- Nome humano do cluster.
+- Descrição.
+- Peso aproximado.
+- Exemplos anonimizados.
+- Oportunidade associada.
+
+Nome ruim: “Cluster negativo 01”.
+
+Nome bom: “Medo de ser interpretado como ameaça”.
+
+### 5. Top comentários
+
+Para cada comentário relevante:
+
+- Alias público.
+- Texto.
+- Likes/respostas.
+- Categoria.
+- Por que importa.
+- Potencial de conteúdo ou estratégia.
+
+### 6. Linguagem nativa
+
+Extrair frases e expressões que poderiam virar:
+
+- hook;
+- headline;
+- título de carrossel;
+- fala em roteiro;
+- nome de quadro;
+- ângulo de oferta.
+
+### 7. Ouro estratégico
+
+O relatório deve terminar com decisões práticas:
+
+- O que responder agora.
+- Que conteúdo gravar.
+- Que objeção tratar.
+- Que promessa evitar.
+- Que produto ou oferta testar.
+
+## Diferenciação obrigatória
+
+### Evidência
+
+O que aparece literalmente nos comentários.
+
 Exemplo:
-> "3.724 comentários analisados. Público está dividido entre esperança (42%) e medo (38%). Dor principal: confusão sobre processo. Oportunidade: criar conteúdo educativo sobre as 3 etapas."
 
-### 2. Números Principais
+> “389 ocorrências de ‘assédio’ e 60 de ‘amor’.”
 
-- Total de comentários analisados
-- Total válido após limpeza
-- Comentários com mais likes
-- Principais clusters
-- Palavras recorrentes
+### Inferência
 
-### 3. Leitura Cultural
-
-O que esse post revelou sobre o público brasileiro. Não é análise demográfica, é análise de **artefato cultural**.
+Interpretação provável baseada nos padrões.
 
 Exemplo:
-> "O público brasileiro valoriza transparência acima de tudo. Quando não há clareza, a reação é desconfiança, não agressão. Isso sugere que educação e comunicação clara são mais eficazes que marketing agressivo."
 
-### 4. Clusters Principais
+> “O público está juridificando a linguagem afetiva.”
 
-| Cluster | Descrição | Peso | Exemplos | Oportunidade |
-|---------|-----------|------|----------|--------------|
-| Medo de Processo | Insegurança sobre como funciona | 38% | "Como assim?", "Não entendi" | Criar tutorial em vídeo |
-| Validação/Ego | Busca por reconhecimento | 22% | "Isso é bom mesmo?", "Vale a pena?" | Testimoniais de sucesso |
-| Paz/Sossego | Desejo de simplicidade | 18% | "Só quero que funcione", "Sem complicação" | Posicionar como simples |
+### Hipótese
 
-### 5. Top Comentários
-
-Versão anonimizada, com likes, categoria e potencial de conteúdo.
-
-| Comentarista | Texto | Likes | Categoria | Por Que Funcionou | Potencial |
-|--------------|-------|-------|-----------|------------------|-----------|
-| 01 | "Finalmente algo que faz sentido" | 342 | Esperança | Validação social | Depoimento em vídeo |
-| 02 | "Mas como funciona no mobile?" | 128 | Objeção | Pergunta específica | FAQ em Reels |
-
-### 6. Ouro Extraído
-
-Pautas de conteúdo, roteiros, quadros, campanhas derivadas dos comentários.
+Aposta a validar com novos dados.
 
 Exemplo:
-- **Pauta 1**: "3 medos que você tem sobre [produto] (e por que estão errados)"
-- **Pauta 2**: "Como [produto] funciona em 60 segundos"
-- **Quadro**: "Perguntas que vocês fazem no DM"
 
-### 7. Recomendação Estratégica
+> “Se criarmos conteúdo sobre aproximação sem medo, comentários de dúvida devem aumentar e comentários de cinismo devem cair.”
 
-O que fazer agora com essa inteligência.
+## Travas éticas
+
+1. Nunca transformar análise em exposição pública de pessoa.
+2. Anonimizar por padrão: Comentarista 01, 02, 03.
+3. @ reais apenas em seção interna chamada “uso operacional”.
+4. Não incentivar assédio, perseguição ou humilhação coletiva.
+5. Não classificar dados sensíveis de pessoas.
+6. Analisar o comentário como artefato cultural, não a pessoa como alvo.
+
+## Critério de qualidade
+
+Um bom relatório não termina com “o público está dividido”.
+
+Um bom relatório termina com uma frase que revela a estrutura invisível da conversa.
 
 Exemplo:
-> "Prioridade 1: Criar conteúdo educativo sobre processo. Prioridade 2: Amplificar testimoniais de sucesso. Prioridade 3: Testar posicionamento em 'simplicidade' em próximos anúncios."
 
-### 8. Anexo Interno (Opcional)
-
-Somente se solicitado: lista operacional com @ reais para convite, resposta ou CRM.
-
-**Nunca incluir @ reais no output público por padrão.**
-
----
-
-## Travas Éticas
-
-1. **Nunca transformar ranking em exposição pública de pessoa.**
-2. **Anonimizar por padrão**: Comentarista 01, 02, 03...
-3. **@ reais apenas em seção interna** chamada "uso operacional".
-4. **Não incentivar assédio, perseguição, humilhação coletiva.**
-5. **Não classificar dados sensíveis** de pessoas (saúde, religião, sexualidade).
-6. **Analisar o comentário como artefato cultural**, não a pessoa como alvo.
-
----
-
-## Diferenciação: Evidência vs Inferência vs Hipótese
-
-Sempre deixar claro o nível de certeza:
-
-- **EVIDÊNCIA**: O que aparece literalmente nos comentários.
-  - "342 comentários mencionam medo de processo"
-
-- **INFERÊNCIA**: Interpretação provável baseada em padrões.
-  - "O público parece desconfiar de processos não transparentes"
-
-- **HIPÓTESE**: Aposta a validar com novos dados.
-  - "Hipótese: Se criarmos tutorial em vídeo, taxa de conversão sobe 15%"
+> “Eles não estão dizendo que desistiram do amor. Estão dizendo que o custo social de tentar ficou alto demais.”

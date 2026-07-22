@@ -116,13 +116,13 @@ Agrupar comentários por desejo subjacente.
 - Desejo 2: Reconhecimento (12 comentários)
 - Desejo 3: Comunidade (8 comentários)
 
-### Quais Piadas se Repetem?
+### Quais Padrões se Repetem?
 
-Identificar temas cômicos recorrentes.
+Identificar temas, formulações e enquadramentos recorrentes.
 
 **Exemplo**:
-- Piada 1: Duplo sentido sobre [tema] (7 variações)
-- Piada 2: Referência a [meme] (5 variações)
+- Padrão 1: Medo recorrente sobre [tema] (7 variações)
+- Padrão 2: Objeção recorrente sobre [tema] (5 variações)
 
 ### Quais Frases Virariam Reels?
 
@@ -179,7 +179,7 @@ Convidar comentarista para live, debate, esclarecimento.
 
 ### Dia 5: UGC Campaign
 
-Lançar campanha pedindo que seguidores repliquem a piada/frase.
+Lançar campanha pedindo que seguidores respondam a uma frase, tensão ou pergunta do post.
 
 **Formato**: Carrossel + Stories + Reels
 **Objetivo**: Viralizar, engajar, gerar UGC
@@ -210,18 +210,17 @@ Resumo do que funcionou, por quê e o que o público quer.
 
 Clusters de comentários agrupados por tema.
 
-| Tema | Quantidade | Exemplos | Oportunidade |
-|------|-----------|----------|--------------|
-| Pergunta sobre funcionalidade | 42 | "Como funciona?", "E no mobile?" | Tutorial em vídeo |
-| Piada/Trocadilho | 28 | "[piadas]" | Quadro de humor |
-| Validação/Ego | 35 | "Que legal", "Adorei" | Testimonial |
+Tema 1: Pergunta sobre funcionalidade. Exemplo: “Como funciona?”, “E no mobile?”. Oportunidade: tutorial em vídeo.
+
+Tema 2: Objeção recorrente. Exemplo: “[objeções]”. Oportunidade: série de esclarecimento.
+
+Tema 3: Validação ou concordância. Exemplo: “Que legal”, “Adorei”. Oportunidade: testimonial ou prova social.
 
 ### 3. Top 5 Comentários que Merecem Resposta em Vídeo
 
-| Posição | Comentarista | Texto | Likes | Por Que | Roteiro |
-|---------|--------------|-------|-------|--------|---------|
-| 1 | 01 | "[texto]" | 128 | Pergunta específica | Demonstração em 30s |
-| 2 | 02 | "[texto]" | 95 | Objeção válida | Esclarecimento em 45s |
+Comentário 1: [Comentarista 01]. Texto: “[texto]”. Likes: 128. Por que importa: pergunta específica. Roteiro: demonstração em 30s.
+
+Comentário 2: [Comentarista 02]. Texto: “[texto]”. Likes: 95. Por que importa: objeção válida. Roteiro: esclarecimento em 45s.
 
 ### 4. Quadros Possíveis
 

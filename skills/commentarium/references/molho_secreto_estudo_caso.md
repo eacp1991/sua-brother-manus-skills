@@ -49,5 +49,16 @@
 - Número sem contraste, insight sem frase-lâmina, quote sem like
 - Voz do clone no lugar do frame de pesquisadora (o estudo NÃO é escrito na voz dela — é escrito PRA ela gravar com autoridade)
 
+9. **As ordens criativas eram do ENRICO (gene confirmado no 3724 ORIGEM.md).**
+   O formato não nasceu de prompt genérico: nasceu de diretivas dele —
+   *"invés de funil, foca nos comentários como estudo de caso... tornar em
+   estatística, pesquisa com metodologia (tipo afinal who cares)"* e
+   *"subcategorias detalhadas = roteiros prontos, cada subcategoria vira um
+   vídeo"*. O espírito "pesquisa séria com deboche" ('who cares') é assinatura
+   dele. Replicar o cálice = executar ESSAS diretivas, não inventar formato.
+   Bônus de rota: Apify falhou pra ele no dia 1 → extensão IG Exporter pegou
+   522 parcial → CSV Apify completo chegou depois (4.103→3.724). A v1 de 522
+   JÁ tinha o formato aprovado — o dado completo só engordou o que funcionava.
+
 ## A fórmula em uma linha
 **Corpus completo → números-manchete com contraste → consenso verbatim com likes → insight com lâmina → roteiro com o dado como hook → ponte pro negócio → loop contínuo → entregue como DOCUMENTO (o MD é a arte).**

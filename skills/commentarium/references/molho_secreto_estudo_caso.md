@@ -35,9 +35,11 @@
    reais, posicione-se como pesquisadora, colete dados de cada vídeo novo" —
    transforma o documento em SISTEMA contínuo (cada vídeo alimenta o próximo
    estudo).
-8. **A entrega visual importa.** O PDF de reportlab foi REJEITADO ("design
-   feio"); o que chegou nela foi o deck bonito (Gamma "BROTHER, SENTA QUE LÁ VEM
-   HISTÓRIA") + o doc. Estudo bom com cara feia = entrega ruim.
+8. **O DOCUMENTO é a entrega.** ⚠️ Correção do Enrico (22/07): ela CAGOU pros
+   slides — o que colou foi o MD do Claude em si (o estudo como página/documento
+   denso e legível). O PDF de reportlab foi rejeitado por ser feio, mas deck
+   bonito também não foi o que a ganhou. O artefato-herói é o próprio estudo
+   markdown; deck/slides = acessório dispensável, só se ela pedir.
 
 ## Anti-padrões (o que matou as entregas de fev→jul)
 
@@ -48,4 +50,4 @@
 - Voz do clone no lugar do frame de pesquisadora (o estudo NÃO é escrito na voz dela — é escrito PRA ela gravar com autoridade)
 
 ## A fórmula em uma linha
-**Corpus completo → números-manchete com contraste → consenso verbatim com likes → insight com lâmina → roteiro com o dado como hook → ponte pro negócio → loop contínuo → embrulho bonito.**
+**Corpus completo → números-manchete com contraste → consenso verbatim com likes → insight com lâmina → roteiro com o dado como hook → ponte pro negócio → loop contínuo → entregue como DOCUMENTO (o MD é a arte).**

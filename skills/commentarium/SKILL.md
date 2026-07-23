@@ -117,7 +117,7 @@ Regras duras do formato (violou uma, refaça):
 5. Roteiros nascem DO estudo, com o dado como hook — nunca roteiro solto.
 6. Uma parte final faz a ponte pro NEGÓCIO do creator.
 7. Fecha com próximos passos + loop contínuo (cada vídeo novo alimenta o próximo estudo).
-8. Entrega visual: deck 13 slides (`templates/deck_13_slides_template.md`) — nunca PDF cru.
+8. **O DOCUMENTO é a entrega** — o próprio estudo markdown, denso e legível, é o artefato final (validado: a cliente ignorou slides; o que colou foi o MD). Deck 13 slides (`templates/deck_13_slides_template.md`) = acessório OPCIONAL, só sob pedido. PDF cru de gerador = nunca.
 
 **Relatório técnico curto** (o formato antigo abaixo) só quando o pedido for
 explicitamente uma varredura rápida, não uma entrega de estratégia:

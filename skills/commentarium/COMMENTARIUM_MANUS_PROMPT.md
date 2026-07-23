@@ -89,7 +89,7 @@ python3 scripts/shortlist_comments.py normalized_comments.json shortlist.json --
 
 5. **Output — DEFAULT = ESTUDO DE CASO**
    - O entregável padrão de qualquer análise completa é o **ESTUDO DE CASO** no molde de `templates/estudo_caso_template.md`, seguindo a receita de `references/molho_secreto_estudo_caso.md` (formato aprovado em produção — case 3.724). Regras inegociáveis: criador como PESQUISADOR ("eu analisei N comentários") · estatística sempre como manchete com CONTRASTE · top comentários verbatim com likes (consenso mensurável) · insight fecha em frase-lâmina quotável · roteiros nascem do estudo com o dado como hook · ponte pro negócio · próximos passos com loop contínuo.
-   - Entrega visual: deck de 13 slides (`templates/deck_13_slides_template.md`), dark + acento da marca, 1 manchete por slide. Nunca PDF cru.
+   - **O DOCUMENTO é a entrega**: o próprio estudo markdown é o artefato final. Deck de 13 slides (`templates/deck_13_slides_template.md`) só se o cliente pedir. Nunca PDF cru.
    - `templates/relatorio_template.md` só para varredura técnica rápida explicitamente pedida.
    - `templates/plano_creator_7dias_template.md` apenas quando o objetivo for calendário de conteúdo.
 

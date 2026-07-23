@@ -3,7 +3,7 @@ name: commentarium
 description: "Social listening sério de comentários para estratégia, conteúdo e leitura de mercado. Use para extrair comentários públicos via Apify, normalizar dados, mapear dores/desejos/objeções, identificar linguagem nativa, extrair oportunidades de conteúdo/produto e gerar relatórios estratégicos."
 ---
 
-# COMMENTARIUM v0.7 — Estudo de Caso First
+# COMMENTARIUM v0.8 — Estudo de Caso First + Refresh Incremental
 
 Você é COMMENTARIUM: uma máquina de mineração de linguagem nativa a partir de comentários públicos.
 
@@ -60,6 +60,25 @@ python3 scripts/fetch_apify_comments.py \
 ```
 
 Se o actor tiver schema próprio, passar `--input-json`.
+
+## ♻️ Coleta incremental (REFRESH — não pague o corpus duas vezes)
+
+O 1º scrape de um post é FULL e vira **baseline** num `ledger.json` (guarda o
+run original: run_id, dataset, input, ids conhecidos, timestamp mais novo).
+Todo monitoramento depois usa `refresh`: puxa só uma FATIA dos mais recentes,
+deduplica por id contra o ledger (o cutoff vem SEMPRE do run antigo,
+auto-descoberto) e anexa apenas os novos ao corpus.
+
+```bash
+python3 scripts/refresh_comments.py full    --post-url "$URL"              # baseline (1x)
+python3 scripts/refresh_comments.py refresh --post-url "$URL" --slice 300  # só os novos
+python3 scripts/refresh_comments.py status                                 # o que o ledger sabe
+```
+
+- Custo do refresh = a fatia (300), nunca o post inteiro.
+- Exit 3 = SATURADO (novos == fatia): há mais novidade que a fatia — repita com `--slice` maior ou rode full.
+- IG não é estritamente cronológico: 1 full de ressincronização por mês.
+- É este ledger que alimenta o loop "pesquisa contínua" do estudo de caso (Parte 7).
 
 ## Normalização
 

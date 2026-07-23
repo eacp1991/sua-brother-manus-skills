@@ -24,6 +24,13 @@ python3 scripts/query_oraculo.py --stats   # mapa do acervo
 
 - **2-3 consultas CURTAS (2-3 termos cada) > 1 consulta longa.** A busca tem escada interna (AND → OR → LIKE), mas termo demais dilui o resultado.
 - Reformule com sinônimos se vier pouco (ex.: "término" → "separação", "ex").
+- **REGRA DE RECÊNCIA (números de performance/audiência):** o KB guarda camadas
+  de épocas diferentes. Para views, formatos, precificação de publi e perfil
+  de audiência, consulte PRIMEIRO a régua canônica (`query "régua canônica
+  números"` → wing 22_analytics_jul26). Se dois átomos conflitarem, vence o
+  mais recente — e a resposta declara a data do dado ("snapshot de 21/07").
+  Valores de contrato interno de equipe (mensalidades de serviço) NUNCA são
+  resposta para "quanto cobro numa publi".
 - `--kb master` = método, voz, cursos, analytics, comentários reais, funil, produto (5.5k+ átomos, 26 wings).
 - `--kb social` = mecânica de conteúdo: hooks, formatos Story×Feed, régua de CTA, posicionamento (347 átomos).
 

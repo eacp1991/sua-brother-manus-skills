@@ -76,6 +76,11 @@ python3 scripts/refresh_comments.py status                                 # o q
 ```
 
 - Custo do refresh = a fatia (300), nunca o post inteiro.
+- **Cobertura <95% do esperado:** re-tente a coleta 1x; se persistir, o estudo
+  DECLARA em destaque "top-likes possivelmente ausentes desta amostra" antes
+  da Parte 3 — a seção 'mais curtidos' só é confiável com cobertura alta
+  (caso real 23/07: 86% de cobertura perdeu os 3 comentários mais curtidos do
+  post, incluindo o consenso nº1).
 - Exit 3 = SATURADO (novos == fatia): há mais novidade que a fatia — repita com `--slice` maior ou rode full.
 - IG não é estritamente cronológico: 1 full de ressincronização por mês.
 - É este ledger que alimenta o loop "pesquisa contínua" do estudo de caso (Parte 7).
